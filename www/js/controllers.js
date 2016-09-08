@@ -1,6 +1,6 @@
 angular.module('mobileresume.controllers', [])
 
-.controller('ProfileCtrl', function($scope) {
+.controller('ProfileCtrl', function($scope, $http) {
   //scope variables
   $scope.profileInformation = {
     "name": "John Moline",
@@ -9,9 +9,10 @@ angular.module('mobileresume.controllers', [])
     "state": "TX",
     "zip": "75054",
     "phone": "(214)400-9400",
-    "description": " - Hello and thank you for visiting my resume. I am a Senior Architect that happens to still write alot of code. It is my strong opinion that all senior-level engineers still ensure that they keep on top of technology and how it evolves. To be a successful mentor, one needs to know the ins/outs of all software platforms. Please click the other application tabs for more information on my background. Thank you!"
+    "description": "Hello and thank you for visiting my mobile resume. I am a Senior Developer/Architect. I live and breathe technology and am always looking for more insight to continuously build my knowledge and arsenal of development tools. Please click the other application tabs for more information on my background. Thank you!"
   };
   $scope.profileQuote = "";
+  $scope.randomjoke = null;
   $scope.profileListItems = [
     {
       icon: "icon ion-social-twitter",
@@ -40,6 +41,15 @@ angular.module('mobileresume.controllers', [])
     }
   ];
 
+  //scope load events
+  $scope.$on('$ionicView.afterEnter', function(event, data) {
+    //call the random joke api
+    console.log("Getting random joke");
+    $http.get('http://api.icndb.com/jokes/random').then(function(response) {
+      console.log("Joke Received: " + JSON.stringify(response));
+      $scope.randomjoke = response;
+    });
+  });
 
 })
 
@@ -70,4 +80,32 @@ angular.module('mobileresume.controllers', [])
 })
 
 .controller('SkillsCtrl', function($scope) {
+  //scope variables
+  $scope.skills = [
+    {
+      "image" : "http://www.content4demand.com/wp-content/uploads/2014/12/tools.jpg",
+      "environment" : "IDEs",
+      "items" : [ "Visual Studio", "Eclipse", "Android Studio", "X-Code", "Atom" ]
+    },
+    {
+      "image" : "http://www.software20.org/wp-content/uploads/2016/01/programming-languages.jpg",
+      "environment" : "Languages",
+      "items" : [ ".NET", "Java (including Android)", "iOS (Objective-C and Swift)", "PHP", "NodeJS", "Javascript (including UI frameworks)", "XML", "JSON", "C", "C++", "HTML5", "CSS3" ]
+    },
+    {
+      "image" : "http://www.essentialsql.com/wp-content/uploads/2014/05/database-parts.jpg",
+      "environment" : "Databases",
+      "items" : [ "MongoDB", "CouchDB (including Cloudant)", "MySql", "Sql Server", "Oracle", "DB2" ]
+    },
+    {
+      "image" : "http://www.derivetech.com/sites/default/files/Desktop-Development-Gears-Operation-Software-Icon-2.png",
+      "environment" : "Application Platforms",
+      "items" : [ "Android", "iOS", "Cordova", "Micro-Services", "REST", "SOAP" ]
+    },
+    {
+      "image" : "https://i.ytimg.com/vi/5AjReRMoG3Y/maxresdefault.jpg",
+      "environment" : "Operating Systems",
+      "items" : [ "Windows", "Windows Server", "MacOS", "Linux", "Unix" ]
+    }
+  ];
 });

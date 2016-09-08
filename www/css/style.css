@@ -17,6 +17,12 @@
 }
 /*******************************references**********************************/
 
+/*******************************skills**********************************/
+.item .skillitem {
+  margin:0% 2% 2% 0%;
+}
+/*******************************skills**********************************/
+
 
 /*******************************profile**********************************/
 #welcomeContent .row {
@@ -40,8 +46,31 @@
   height:auto;
   min-height: 50px;
   position: absolute;
-  bottom: 30% !important;
+  top: 45% !important;
   left: 0;
+}
+#welcomeContent #imageRow #jokeContainer {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  /*background: transparent url(http://cdn8.staztic.com/app/a/5826/5826814/des-blagues-chuck-norris-1-l-124x124.png) no-repeat center 60%;
+  background-size: 25%;*/
+}
+#welcomeContent #imageRow #jokeContainer img {
+  width:25px;
+  height:25px;
+  float:left;
+}
+#welcomeContent #imageRow #jokeContainer label {
+  width: auto;
+  height: auto;
+  float: right;
+  font: normal 8px Arial;
+  color: #FF0000;
+  position: absolute;
+  margin: 2%;
 }
 #welcomeContent #imageRow #profileInformationContainer .profileRows {
   width:100%;
