@@ -3,12 +3,15 @@
     <div id="imageRow" class="row">
     </div>
     <div id="informationRow" class="row">
-      <label>
-        John Moline
-      </label>
-      <label>
-
-      </label>
+      <ion-list>
+        <ion-item class="contactItem" ng-repeat="item in profileListItems">
+          <i class="{{item.icon}}"></i>
+          <h2>{{item.name}}</h2>
+        </ion-item>
+      </ion-list>
     </div>
+    <label id="nameLabel">
+      John Moline
+    </label>
   </ion-content>
 </ion-view>
