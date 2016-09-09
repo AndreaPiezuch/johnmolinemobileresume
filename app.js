@@ -16,5 +16,5 @@ var appEnv = cfenv.getAppEnv();
 
 //init server listening event
 app.listen(appEnv.port, '0.0.0.0', function() {
-  console.log("Example app listenting on " + appEnv.url);
+  console.log("JohnMolineResume App listening on " + appEnv.url);
 });
