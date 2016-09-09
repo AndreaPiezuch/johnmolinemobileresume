@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/JoMo1970/johnmolinemobileresume#readme",
   "dependencies": {
+    "cfenv": "^1.0.3",
     "express": "^4.14.0"
   }
 }
