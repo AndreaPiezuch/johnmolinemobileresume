@@ -9,8 +9,6 @@ app.get('/', function(req, res) {
   res.sendFile(__dirname + '/public/www/index.html');
 });
 
-console.log("File path: " + __dirname);
-
 //init cfenv variable
 var appEnv = cfenv.getAppEnv();
 
