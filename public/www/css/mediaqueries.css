@@ -1,0 +1,844 @@
+/*****************Media tags for responsiveness:START***********************/
+/* ----------- iPad ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+  /****NOT USED*****/
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: portrait) {
+
+
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: landscape) {
+
+
+}
+
+
+
+
+
+/* ----------- Tablets----------- */
+
+/* Portrait and Landscape */
+@media
+  (min-device-width: 800px)
+  and (max-device-width: 1280px) {
+	/****NOT USED*****/
+}
+
+/* Portrait */
+@media (min-device-width:800px) and (max-device-width: 1280px) and (orientation: portrait) {
+
+
+}
+
+/* Landscape */
+@media (min-device-width:800px) and (max-device-width: 1280px) and (orientation: landscape) {
+
+
+}
+
+
+
+/*---------------iPhone 5-----------------*/
+/*portrait*/
+@media only screen
+    and (min-device-width : 320px)
+    and (max-device-width : 568px)
+    and (orientation : portrait)
+    and (-webkit-min-device-pixel-ratio: 2)
+{
+  /*******************************references**********************************/
+  .item {
+    position: relative;
+  }
+  .item p {
+    width:100%;
+    height:100%;
+    float:left;
+    white-space: normal;
+    margin-top:10px;
+  }
+  .item .referenceDates {
+    position: absolute;
+    right: 2%;
+    top: 3%;
+    font: italic 10px Arial;
+  }
+  /*******************************references**********************************/
+
+  /*******************************skills**********************************/
+  .item .skillitem {
+    margin:0% 2% 2% 0%;
+  }
+  /*******************************skills**********************************/
+
+
+  /*******************************profile**********************************/
+  #welcomeContent .row {
+    height:auto;
+    min-height: 300px;
+    float:left;
+    width:100%;
+  }
+  #welcomeContent #descriptionRow.row {
+    margin-top: 20px;
+    font: italic 16px Arial;
+  }
+  #welcomeContent #imageRow {
+    background:transparent url(/img/johnmoline.jpg) no-repeat 40% 3%;
+    background-size:75%;
+    width:50% !important;
+    position: relative;
+  }
+  #welcomeContent #imageRow #profileInformationContainer {
+    width:100%;
+    height:auto;
+    min-height: 50px;
+    position: absolute;
+    top: 45% !important;
+    left: 0;
+  }
+  #welcomeContent #imageRow #jokeContainer {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /*background: transparent url(http://cdn8.staztic.com/app/a/5826/5826814/des-blagues-chuck-norris-1-l-124x124.png) no-repeat center 60%;
+    background-size: 25%;*/
+  }
+  #welcomeContent #imageRow #jokeContainer img {
+    width:25px;
+    height:25px;
+    float:left;
+  }
+  #welcomeContent #imageRow #jokeContainer label {
+    width: auto;
+    height: auto;
+    float: right;
+    font: normal 8px Arial;
+    color: #FF0000;
+    position: absolute;
+    margin: 2%;
+  }
+  #welcomeContent #imageRow #profileInformationContainer .profileRows {
+    width:100%;
+    height:25%;
+    float:left;
+    text-align: left;
+    text-indent: 35px;
+  }
+  #welcomeContent #imageRow #profileInformationContainer #profileName.profileRows {
+    text-align: left;
+    text-indent: 25px !important;
+    font-size: 20px;
+  }
+  #welcomeContent #informationRow {
+    width: 50% !important;
+    height: auto;
+  }
+  #welcomeContent #informationRow .contactItem a.item-content {
+    width:100%;
+    height:100%;
+    float:left;
+  }
+  #welcomeContent #informationRow .contactItem {
+    width: 93%;
+    height: 50px;
+    float:left;
+    position: relative;
+    margin:5% 10% 5% 0%;
+    box-shadow:0px 0px 10px #cccccc;
+  }
+  #welcomeContent #informationRow .contactItem i {
+    position: absolute;
+    font-size: 35px;
+    left: 15%;
+    top: 15%;
+  }
+  #welcomeContent #informationRow .contactItem h2 {
+    position: absolute;
+    right: 15%;
+    top: 30%;
+  }
+  #nameLabel {
+    width:100%;
+    height:25px;
+    float:left;
+  }
+  /*******************************profile**********************************/
+
+}
+
+/*---------------iPhone 6-----------------*/
+/*portrait*/
+@media only screen
+    and (min-device-width : 375px)
+    and (max-device-width : 667px)
+    and (orientation : portrait)
+    and (-webkit-min-device-pixel-ratio: 2)
+{
+  /*******************************references**********************************/
+  .item {
+    position: relative;
+  }
+  .item p {
+    width:100%;
+    height:100%;
+    float:left;
+    white-space: normal;
+    margin-top:10px;
+  }
+  .item .referenceDates {
+    position: absolute;
+    right: 2%;
+    top: 3%;
+    font: italic 10px Arial;
+  }
+  /*******************************references**********************************/
+
+  /*******************************skills**********************************/
+  .item .skillitem {
+    margin:0% 2% 2% 0%;
+  }
+  /*******************************skills**********************************/
+
+
+  /*******************************profile**********************************/
+  #welcomeContent .row {
+    height:auto;
+    min-height: 300px;
+    float:left;
+    width:100%;
+  }
+  #welcomeContent #descriptionRow.row {
+    margin-top: 20px;
+    font: italic 16px Arial;
+  }
+  #welcomeContent #imageRow {
+    background:transparent url(/img/johnmoline.jpg) no-repeat 40% 3%;
+    background-size:75%;
+    width:50% !important;
+    position: relative;
+  }
+  #welcomeContent #imageRow #profileInformationContainer {
+    width:100%;
+    height:auto;
+    min-height: 50px;
+    position: absolute;
+    top: 45% !important;
+    left: 0;
+  }
+  #welcomeContent #imageRow #jokeContainer {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /*background: transparent url(http://cdn8.staztic.com/app/a/5826/5826814/des-blagues-chuck-norris-1-l-124x124.png) no-repeat center 60%;
+    background-size: 25%;*/
+  }
+  #welcomeContent #imageRow #jokeContainer img {
+    width:25px;
+    height:25px;
+    float:left;
+  }
+  #welcomeContent #imageRow #jokeContainer label {
+    width: auto;
+    height: auto;
+    float: right;
+    font: normal 8px Arial;
+    color: #FF0000;
+    position: absolute;
+    margin: 2%;
+  }
+  #welcomeContent #imageRow #profileInformationContainer .profileRows {
+    width:100%;
+    height:25%;
+    float:left;
+    text-align: left;
+    text-indent: 35px;
+  }
+  #welcomeContent #imageRow #profileInformationContainer #profileName.profileRows {
+    text-align: left;
+    text-indent: 25px !important;
+    font-size: 20px;
+  }
+  #welcomeContent #informationRow {
+    width: 50% !important;
+    height: auto;
+  }
+  #welcomeContent #informationRow .contactItem a.item-content {
+    width:100%;
+    height:100%;
+    float:left;
+  }
+  #welcomeContent #informationRow .contactItem {
+    width: 93%;
+    height: 50px;
+    float:left;
+    position: relative;
+    margin:5% 10% 5% 0%;
+    box-shadow:0px 0px 10px #cccccc;
+  }
+  #welcomeContent #informationRow .contactItem i {
+    position: absolute;
+    font-size: 35px;
+    left: 15%;
+    top: 15%;
+  }
+  #welcomeContent #informationRow .contactItem h2 {
+    position: absolute;
+    right: 15%;
+    top: 30%;
+  }
+  #nameLabel {
+    width:100%;
+    height:25px;
+    float:left;
+  }
+  /*******************************profile**********************************/
+
+}
+
+/*---------------iPhone 6+-----------------*/
+/*portrait*/
+@media only screen
+    and (min-device-width : 414px)
+    and (max-device-width : 736px)
+    and (orientation : portrait)
+    and (-webkit-min-device-pixel-ratio: 3)
+{
+  /*******************************references**********************************/
+  .item {
+    position: relative;
+  }
+  .item p {
+    width:100%;
+    height:100%;
+    float:left;
+    white-space: normal;
+    margin-top:10px;
+  }
+  .item .referenceDates {
+    position: absolute;
+    right: 2%;
+    top: 3%;
+    font: italic 10px Arial;
+  }
+  /*******************************references**********************************/
+
+  /*******************************skills**********************************/
+  .item .skillitem {
+    margin:0% 2% 2% 0%;
+  }
+  /*******************************skills**********************************/
+
+
+  /*******************************profile**********************************/
+  #welcomeContent .row {
+    height:auto;
+    min-height: 300px;
+    float:left;
+    width:100%;
+  }
+  #welcomeContent #descriptionRow.row {
+    margin-top: 20px;
+    font: italic 16px Arial;
+  }
+  #welcomeContent #imageRow {
+    background:transparent url(/img/johnmoline.jpg) no-repeat 40% 3%;
+    background-size:75%;
+    width:50% !important;
+    position: relative;
+  }
+  #welcomeContent #imageRow #profileInformationContainer {
+    width:100%;
+    height:auto;
+    min-height: 50px;
+    position: absolute;
+    top: 45% !important;
+    left: 0;
+  }
+  #welcomeContent #imageRow #jokeContainer {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /*background: transparent url(http://cdn8.staztic.com/app/a/5826/5826814/des-blagues-chuck-norris-1-l-124x124.png) no-repeat center 60%;
+    background-size: 25%;*/
+  }
+  #welcomeContent #imageRow #jokeContainer img {
+    width:25px;
+    height:25px;
+    float:left;
+  }
+  #welcomeContent #imageRow #jokeContainer label {
+    width: auto;
+    height: auto;
+    float: right;
+    font: normal 8px Arial;
+    color: #FF0000;
+    position: absolute;
+    margin: 2%;
+  }
+  #welcomeContent #imageRow #profileInformationContainer .profileRows {
+    width:100%;
+    height:25%;
+    float:left;
+    text-align: left;
+    text-indent: 35px;
+  }
+  #welcomeContent #imageRow #profileInformationContainer #profileName.profileRows {
+    text-align: left;
+    text-indent: 25px !important;
+    font-size: 20px;
+  }
+  #welcomeContent #informationRow {
+    width: 50% !important;
+    height: auto;
+  }
+  #welcomeContent #informationRow .contactItem a.item-content {
+    width:100%;
+    height:100%;
+    float:left;
+  }
+  #welcomeContent #informationRow .contactItem {
+    width: 93%;
+    height: 50px;
+    float:left;
+    position: relative;
+    margin:5% 10% 5% 0%;
+    box-shadow:0px 0px 10px #cccccc;
+  }
+  #welcomeContent #informationRow .contactItem i {
+    position: absolute;
+    font-size: 35px;
+    left: 15%;
+    top: 15%;
+  }
+  #welcomeContent #informationRow .contactItem h2 {
+    position: absolute;
+    right: 15%;
+    top: 30%;
+  }
+  #nameLabel {
+    width:100%;
+    height:25px;
+    float:left;
+  }
+  /*******************************profile**********************************/
+
+}
+
+
+/*---------------Google Nexus 6-----------------*/
+/*portrait*/
+@media only screen
+    and (min-device-width : 412px)
+    and (max-device-width : 690px)
+    and (orientation : portrait)
+    and (-webkit-min-device-pixel-ratio: 3)
+{
+  /*******************************references**********************************/
+  .item {
+    position: relative;
+  }
+  .item p {
+    width:100%;
+    height:100%;
+    float:left;
+    white-space: normal;
+    margin-top:10px;
+  }
+  .item .referenceDates {
+    position: absolute;
+    right: 2%;
+    top: 3%;
+    font: italic 10px Arial;
+  }
+  /*******************************references**********************************/
+
+  /*******************************skills**********************************/
+  .item .skillitem {
+    margin:0% 2% 2% 0%;
+  }
+  /*******************************skills**********************************/
+
+
+  /*******************************profile**********************************/
+  #welcomeContent .row {
+    height:auto;
+    min-height: 300px;
+    float:left;
+    width:100%;
+  }
+  #welcomeContent #descriptionRow.row {
+    margin-top: 20px;
+    font: italic 16px Arial;
+  }
+  #welcomeContent #imageRow {
+    background:transparent url(/img/johnmoline.jpg) no-repeat 40% 3%;
+    background-size:75%;
+    width:50% !important;
+    position: relative;
+  }
+  #welcomeContent #imageRow #profileInformationContainer {
+    width:100%;
+    height:auto;
+    min-height: 50px;
+    position: absolute;
+    top: 45% !important;
+    left: 0;
+  }
+  #welcomeContent #imageRow #jokeContainer {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /*background: transparent url(http://cdn8.staztic.com/app/a/5826/5826814/des-blagues-chuck-norris-1-l-124x124.png) no-repeat center 60%;
+    background-size: 25%;*/
+  }
+  #welcomeContent #imageRow #jokeContainer img {
+    width:25px;
+    height:25px;
+    float:left;
+  }
+  #welcomeContent #imageRow #jokeContainer label {
+    width: auto;
+    height: auto;
+    float: right;
+    font: normal 8px Arial;
+    color: #FF0000;
+    position: absolute;
+    margin: 2%;
+  }
+  #welcomeContent #imageRow #profileInformationContainer .profileRows {
+    width:100%;
+    height:25%;
+    float:left;
+    text-align: left;
+    text-indent: 35px;
+  }
+  #welcomeContent #imageRow #profileInformationContainer #profileName.profileRows {
+    text-align: left;
+    text-indent: 25px !important;
+    font-size: 20px;
+  }
+  #welcomeContent #informationRow {
+    width: 50% !important;
+    height: auto;
+  }
+  #welcomeContent #informationRow .contactItem a.item-content {
+    width:100%;
+    height:100%;
+    float:left;
+  }
+  #welcomeContent #informationRow .contactItem {
+    width: 93%;
+    height: 50px;
+    float:left;
+    position: relative;
+    margin:5% 10% 5% 0%;
+    box-shadow:0px 0px 10px #cccccc;
+  }
+  #welcomeContent #informationRow .contactItem i {
+    position: absolute;
+    font-size: 35px;
+    left: 15%;
+    top: 15%;
+  }
+  #welcomeContent #informationRow .contactItem h2 {
+    position: absolute;
+    right: 15%;
+    top: 30%;
+  }
+  #nameLabel {
+    width:100%;
+    height:25px;
+    float:left;
+  }
+  /*******************************profile**********************************/
+
+}
+
+
+/*---------------Android Galaxie 5 and all HTC -----------------*/
+/*portrait*/
+@media only screen
+    and (device-width : 360px)
+    and (device-height : 640px)
+    and (orientation : portrait)
+    and (-webkit-device-pixel-ratio: 3)
+{
+  /*******************************references**********************************/
+  .item {
+    position: relative;
+  }
+  .item p {
+    width:100%;
+    height:100%;
+    float:left;
+    white-space: normal;
+    margin-top:10px;
+  }
+  .item .referenceDates {
+    position: absolute;
+    right: 2%;
+    top: 3%;
+    font: italic 10px Arial;
+  }
+  /*******************************references**********************************/
+
+  /*******************************skills**********************************/
+  .item .skillitem {
+    margin:0% 2% 2% 0%;
+  }
+  /*******************************skills**********************************/
+
+
+  /*******************************profile**********************************/
+  #welcomeContent .row {
+    height:auto;
+    min-height: 300px;
+    float:left;
+    width:100%;
+  }
+  #welcomeContent #descriptionRow.row {
+    margin-top: 20px;
+    font: italic 16px Arial;
+  }
+  #welcomeContent #imageRow {
+    background:transparent url(/img/johnmoline.jpg) no-repeat 40% 3%;
+    background-size:75%;
+    width:50% !important;
+    position: relative;
+  }
+  #welcomeContent #imageRow #profileInformationContainer {
+    width:100%;
+    height:auto;
+    min-height: 50px;
+    position: absolute;
+    top: 45% !important;
+    left: 0;
+  }
+  #welcomeContent #imageRow #jokeContainer {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /*background: transparent url(http://cdn8.staztic.com/app/a/5826/5826814/des-blagues-chuck-norris-1-l-124x124.png) no-repeat center 60%;
+    background-size: 25%;*/
+  }
+  #welcomeContent #imageRow #jokeContainer img {
+    width:25px;
+    height:25px;
+    float:left;
+  }
+  #welcomeContent #imageRow #jokeContainer label {
+    width: auto;
+    height: auto;
+    float: right;
+    font: normal 8px Arial;
+    color: #FF0000;
+    position: absolute;
+    margin: 2%;
+  }
+  #welcomeContent #imageRow #profileInformationContainer .profileRows {
+    width:100%;
+    height:25%;
+    float:left;
+    text-align: left;
+    text-indent: 35px;
+  }
+  #welcomeContent #imageRow #profileInformationContainer #profileName.profileRows {
+    text-align: left;
+    text-indent: 25px !important;
+    font-size: 20px;
+  }
+  #welcomeContent #informationRow {
+    width: 50% !important;
+    height: auto;
+  }
+  #welcomeContent #informationRow .contactItem a.item-content {
+    width:100%;
+    height:100%;
+    float:left;
+  }
+  #welcomeContent #informationRow .contactItem {
+    width: 93%;
+    height: 50px;
+    float:left;
+    position: relative;
+    margin:5% 10% 5% 0%;
+    box-shadow:0px 0px 10px #cccccc;
+  }
+  #welcomeContent #informationRow .contactItem i {
+    position: absolute;
+    font-size: 35px;
+    left: 15%;
+    top: 15%;
+  }
+  #welcomeContent #informationRow .contactItem h2 {
+    position: absolute;
+    right: 15%;
+    top: 30%;
+  }
+  #nameLabel {
+    width:100%;
+    height:25px;
+    float:left;
+  }
+  /*******************************profile**********************************/
+
+}
+
+/*---------------John Moline's LG Stylo and other generics -----------------*/
+/*portrait*/
+@media only screen
+    and (device-width : 360px)
+    and (device-height : 640px)
+    and (orientation : portrait)
+{
+  /*******************************references**********************************/
+  .item {
+    position: relative;
+  }
+  .item p {
+    width:100%;
+    height:100%;
+    float:left;
+    white-space: normal;
+    margin-top:10px;
+  }
+  .item .referenceDates {
+    position: absolute;
+    right: 2%;
+    top: 3%;
+    font: italic 10px Arial;
+  }
+  /*******************************references**********************************/
+
+  /*******************************skills**********************************/
+  .item .skillitem {
+    margin:0% 2% 2% 0%;
+  }
+  /*******************************skills**********************************/
+
+
+  /*******************************profile**********************************/
+  #welcomeContent .row {
+    height:auto;
+    min-height: 300px;
+    float:left;
+    width:100%;
+  }
+  #welcomeContent #descriptionRow.row {
+    margin-top: 20px;
+    font: italic 16px Arial;
+  }
+  #welcomeContent #imageRow {
+    background:transparent url(/img/johnmoline.jpg) no-repeat 40% 3%;
+    background-size:75%;
+    width:50% !important;
+    position: relative;
+  }
+  #welcomeContent #imageRow #profileInformationContainer {
+    width:100%;
+    height:auto;
+    min-height: 50px;
+    position: absolute;
+    top: 45% !important;
+    left: 0;
+  }
+  #welcomeContent #imageRow #jokeContainer {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /*background: transparent url(http://cdn8.staztic.com/app/a/5826/5826814/des-blagues-chuck-norris-1-l-124x124.png) no-repeat center 60%;
+    background-size: 25%;*/
+  }
+  #welcomeContent #imageRow #jokeContainer img {
+    width:25px;
+    height:25px;
+    float:left;
+  }
+  #welcomeContent #imageRow #jokeContainer label {
+    width: auto;
+    height: auto;
+    float: right;
+    font: normal 8px Arial;
+    color: #FF0000;
+    position: absolute;
+    margin: 2%;
+  }
+  #welcomeContent #imageRow #profileInformationContainer .profileRows {
+    width:100%;
+    height:25%;
+    float:left;
+    text-align: left;
+    text-indent: 35px;
+  }
+  #welcomeContent #imageRow #profileInformationContainer #profileName.profileRows {
+    text-align: left;
+    text-indent: 25px !important;
+    font-size: 20px;
+  }
+  #welcomeContent #informationRow {
+    width: 50% !important;
+    height: auto;
+  }
+  #welcomeContent #informationRow .contactItem a.item-content {
+    width:100%;
+    height:100%;
+    float:left;
+  }
+  #welcomeContent #informationRow .contactItem {
+    width: 93%;
+    height: 50px;
+    float:left;
+    position: relative;
+    margin:5% 10% 5% 0%;
+    box-shadow:0px 0px 10px #cccccc;
+  }
+  #welcomeContent #informationRow .contactItem i {
+    position: absolute;
+    font-size: 35px;
+    left: 15%;
+    top: 15%;
+  }
+  #welcomeContent #informationRow .contactItem h2 {
+    position: absolute;
+    right: 15%;
+    top: 30%;
+  }
+  #nameLabel {
+    width:100%;
+    height:25px;
+    float:left;
+  }
+  /*******************************profile**********************************/
+
+}
+/*****************Media tags for responsiveness:END*************************/

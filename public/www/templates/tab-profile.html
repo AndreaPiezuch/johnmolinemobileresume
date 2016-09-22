@@ -11,7 +11,7 @@
       </div>
     </div>
     <div id="informationRow" class="row">
-      <ion-list>
+      <ion-list id="contactsList">
         <ion-item class="contactItem" ng-repeat="item in profileListItems | orderBy: 'name'" href="{{item.url}}" target="_blank">
           <i class="{{item.icon}}"></i>
           <h2>{{item.name}}</h2>
